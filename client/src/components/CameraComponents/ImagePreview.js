@@ -10,7 +10,7 @@ export const ImagePreview = ({ dataUri, isFullscreen }) => {
     <div className={"imagepreview " + classNameFullscreen}>
       <img src={dataUri} alt="face" />
       <h1 className="imagepreview__emotion">Emotion</h1>
-      <NavLink to="/">
+      <NavLink to="/camera">
         <h1 className="imagepreview__retake">Retake</h1>
       </NavLink>
       <NavLink to="/Mainplayer">
