@@ -15,11 +15,20 @@ function Startpage() {
       </video>
 
       <div className="startpage__content">
-        <NavLink to="/camera">
-          <h2 className="startpage__startbutton">Get Started</h2>
+        <h1 className="startpage__title">Harmoody</h1>
+        <NavLink
+          to="/camera"
+          className="startpage__startbutton"
+          style={{ textDecoration: "none" }}
+        >
+          Get Started
         </NavLink>
-        <NavLink to="/about">
-          <h2 className="startpage__about">About</h2>
+        <NavLink
+          to="/about"
+          className="startpage__about"
+          style={{ textDecoration: "none" }}
+        >
+          About
         </NavLink>
       </div>
     </div>

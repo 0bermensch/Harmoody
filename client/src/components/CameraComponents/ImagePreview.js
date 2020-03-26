@@ -11,11 +11,11 @@ export const ImagePreview = ({ dataUri, isFullscreen }) => {
         <img src={dataUri} alt="face" />
         <h1 className="imagepreview__emotion">Happiness</h1>
         <div className="imagepreview__function">
-          <NavLink to="/">
-            <h1 className="imagepreview__retake">Retake</h1>
+          <NavLink to="/" className="imagepreview__retake">
+            Retake
           </NavLink>
-          <NavLink to="/playlist">
-            <h1 className="imagepreview__proceed">Proceed to Music</h1>
+          <NavLink to="/playlist" className="imagepreview__proceed">
+            Proceed to Music
           </NavLink>
         </div>
       </div>
