@@ -1,0 +1,11 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@import "./partials/playlist";
+@import "./partials/playlist2";
+@import "./partials/startpage";
+@import "./partials/breakpoints";
+@import "./partials/imagepreview";

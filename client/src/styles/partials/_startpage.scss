@@ -1,0 +1,104 @@
+.startpage {
+  position: relative;
+  overflow: hidden;
+
+  &__backgroundvid {
+    width: 100%;
+    height: 561px;
+    object-fit: fill;
+  }
+  &__content {
+    position: absolute;
+    top: 3rem;
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  &__startbutton {
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-decoration: underline;
+  }
+  &__startbutton:hover {
+    color: red;
+  }
+  &__about {
+    margin-top: 2rem;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-decoration: underline;
+  }
+  &__about:hover {
+    color: red;
+  }
+}
+
+// .Container {
+//   position: relative;
+//   min-height: 300px;
+//   max-height: 800px;
+//   overflow: hidden;
+//   margin-bottom: 500px;
+// }
+
+// /* Style the video: 100% width and height to cover the entire window */
+// .Video {
+//   width: 100%;
+//   height: 100%;
+// }
+
+// /* Add some content at the bottom of the video/page */
+// .Content {
+//   position: absolute;
+//   top: 0;
+//   color: #f1f1f1;
+//   background-color: rgba(0, 0, 0, 0.3);
+//   width: 100%;
+//   height: 100%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   padding: 0;
+// }
+// .SubContent {
+//   text-align: center;
+//   padding: 10px;
+// }
+// .SubContent p {
+//   color: #eeeeeead;
+//   font-size: 1.3rem;
+// }
+// .SubContent button {
+//   font-weight: bold;
+//   margin-top: 30px;
+//   color: #f1f1f1;
+//   border: #f1f1f1 1px solid;
+//   padding: 10px 5px;
+//   background-color: hsla(0, 0%, 0%, 0);
+//   font-size: 1.25rem;
+//   border-radius: 5px;
+// }
+// .SubContent button:hover {
+//   background-color: #f1f1f1;
+//   color: #000000c0;
+// }
+
+// .SubContent img {
+//   width: 200px;
+//   height: 200px;
+//   border-radius: 50%;
+//   display: block;
+//   margin: 15px auto;
+//   border: #f1f1f1 1px solid;
+// }

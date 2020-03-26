@@ -14,11 +14,11 @@ require("dotenv").config();
 const myClientId = "2e3fc843ed7c4456a27ac34c6dd1766a";
 const myClientSecret = "96fd66ae5bb843ab9ab39e6e4115e723";
 
-const spotifyApi = new SpotifyWebApi({
-  clientId: process.env.${myClientId},
-  clientSecret: process.env.${myClientSecret},
-  redirectUri: process.env.CALLBACK_URL
-});
+// const spotifyApi = new SpotifyWebApi({
+//   clientId: process.env.${myClientId},
+//   clientSecret: process.env.${myClientSecret},
+//   redirectUri: process.env.CALLBACK_URL
+// });
 
 /* GET home page. */
 router.get("/", function(req, res, next) {

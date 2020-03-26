@@ -2,6 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Startpage from "./components/Startpage";
 import Camera from "./components/CameraComponents/Camera";
+import DemoPlaylist from "./components/SpotifyComponents/DemoSonglist";
+import DemoPlaylist2 from "./components/SpotifyComponents/Demo2Songlist";
+import About from "./components/About";
+
 import "./App.css";
 
 function App() {
@@ -22,13 +26,24 @@ function App() {
               return <Camera />;
             }}
           />
-          {/* <Route
-            path="/music"
-            exact
+          <Route
+            path="/about"
             render={() => {
-              return <Music />;
+              return <About />;
             }}
-          /> */}
+          />
+          <Route
+            path="/playlist"
+            render={() => {
+              return <DemoPlaylist />;
+            }}
+          />
+          <Route
+            path="/playlist2"
+            render={() => {
+              return <DemoPlaylist2 />;
+            }}
+          />
         </Switch>
       </Router>
     </div>

@@ -1,0 +1,148 @@
+.playlist {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: monospace;
+
+  &__title {
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+    margin: 0;
+  }
+  &__content1 {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://i.scdn.co/image/ab67616d0000b273e8107e6d9214baa81bb79bba");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 25rem;
+    object-fit: contain;
+    margin-left: 20%;
+  }
+  &__info1,
+  &__info2,
+  &__info3,
+  &__info4,
+  &__info5 {
+    margin-top: 7rem;
+    background-color: darkgrey;
+    opacity: 70%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+  }
+
+  &__songname1,
+  &__albumname1,
+  &__artistname1 {
+    font-size: 2rem;
+    color: brown;
+    margin: 0.5rem;
+    text-align: center;
+  }
+  &__content2 {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://i.scdn.co/image/ab67616d0000b273f21a1cda09717f1d1bfcb98d");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 25rem;
+    object-fit: contain;
+    margin-left: 20%;
+  }
+  &__songname2,
+  &__albumname2,
+  &__artistname2 {
+    font-size: 2rem;
+    color: brown;
+    margin: 0.5rem;
+    text-align: center;
+  }
+  &__content3 {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://i.scdn.co/image/ab67616d0000b273a88b9eddbf3650ea0529f2cc");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 25rem;
+    object-fit: contain;
+    margin-left: 20%;
+  }
+  &__songname3,
+  &__albumname3,
+  &__artistname3 {
+    font-size: 2rem;
+    color: brown;
+    margin: 0.5rem;
+    text-align: center;
+  }
+  &__content4 {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 25rem;
+    object-fit: contain;
+    margin-left: 20%;
+  }
+  &__songname4,
+  &__albumname4,
+  &__artistname4 {
+    font-size: 2rem;
+    color: brown;
+    margin: 0.5rem;
+    text-align: center;
+  }
+  &__content5 {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://i.scdn.co/image/ab67616d0000b27343294cfa2688055c9d821bf3");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 25rem;
+    object-fit: contain;
+    margin-left: 20%;
+  }
+  &__songname5,
+  &__albumname5,
+  &__artistname5 {
+    font-size: 2rem;
+    color: brown;
+    margin: 0.5rem;
+    text-align: center;
+  }
+}
+
+.switchplaylist {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  color: white;
+  font-size: 0.7rem;
+}
+
+.openplayerbutton {
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  color: white;
+  background-color: black;
+  border: none;
+}
